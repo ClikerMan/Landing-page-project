@@ -1,0 +1,50 @@
+* {
+    font-family: roboto, 'Times New Roman', Times, serif
+}
+.header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.hlogo {
+    margin-left: 80px;
+}
+
+/* End of header section */
+
+
+
+/*Start of hero section */
+
+.herosegment {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+
+}
+
+.herosegment .heropanel,.imagepanel {
+    flex: 1;
+    width: 300px;
+    margin: 50px;
+}
+
+.herosegment .heropanel {
+    margin-left: 100px;
+}
+
+.heropanel {
+    width: 400px;
+}
+
+.heropanel button {
+    background-color: blue;
+    color: white;
+    width: 100px;
+}
+.imagepanel img{
+    width: 200px;
+    height: 200px;
+}
