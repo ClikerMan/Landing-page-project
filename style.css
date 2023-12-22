@@ -6,12 +6,19 @@
     color: white;
     display: flex;
     padding-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: auto 100px;
+    
 }
 
-.hlogo {
-    margin-left: 80px;
-}
 
+
+.linklist {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
 /* End of header section */
 
 
