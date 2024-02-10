@@ -121,3 +121,22 @@ body {
 
 
 /*End information section */
+
+
+/*Start quote section*/
+
+.testimonial {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 100px 400px;
+    margin-top: 100px;
+}
+
+.testimonial .author {
+    font-weight: bold;
+    text-align: right;
+}
+
+/*End quote section */
