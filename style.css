@@ -1,6 +1,12 @@
 * {
-    font-family: roboto, 'Times New Roman', Times, serif
+    font-family: Helvetica, Arial, sans-serif; 
 }
+
+body {
+    margin: 0;
+}
+
+/*Start header section*/
 .header {
     background-color: #1F2937;
     color: white;
@@ -9,7 +15,14 @@
     justify-content: space-between;
     align-items: center;
     padding: auto 100px;
-    
+    padding-left: 100px;
+    padding-right: 100px;   
+}
+
+.hlogo {
+    font-size: 24px;
+    font-style: #F9faf8;
+    font-weight: bold;
 }
 
 
@@ -23,11 +36,11 @@
 
 
 
-/*Start of hero section */
+/*Start hero section */
 
 .herosegment {
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
     display: flex;
 
 }
@@ -44,14 +57,54 @@
 
 .heropanel {
     width: 400px;
+
+}
+
+.heropanel h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+.heropanel p, .linklist {
+    font-size: 18px;
+    font-style: #e5e7eb;
 }
 
 .heropanel button {
-    background-color: blue;
+    background-color: #3882F6;
     color: white;
+    font-size: 18px;
+    font-weight: bold;
     width: 100px;
+    border-radius: 8px;
+    border-color: #3882F6;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
 }
 .imagepanel img{
-    width: 200px;
+    width: 600px;
     height: 200px;
 }
+
+/*End hero section */
+
+
+/*Start information section */
+
+.infopanel h1 {
+    font-size: 36px;
+    font-weight: 800;
+    font-style: #1f2937;
+    text-align: center;
+}
+
+.imageboxes {
+    display: flex;
+    gap: 60px;
+    margin:0 30%;
+    text-align: center;
+}
+
+
+/*End information section */
